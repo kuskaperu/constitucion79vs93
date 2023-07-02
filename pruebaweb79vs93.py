@@ -1,7 +1,7 @@
 import streamlit as st
 import requests
 
-API_URL = "https://test-9p9jrender.com/api/v1/prediction/8e9f2ff5-9598-4215-97e6-d24d1cc9c7f7"
+API_URL = "http://localhost:3000/api/v1/prediction/09196429-a79e-4af4-a18a-c15a0e3f6e2b"
 
 def query(payload):
     try:
